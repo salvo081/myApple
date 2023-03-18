@@ -120,3 +120,60 @@ main .art3 h2.logo-image {
 main .links {
   padding: 1em;
 }
+
+footer {
+  width: 100%;
+  background: #f5f5f7;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_wrapper {
+  width: 970px;
+}
+
+.footer_wrapper ol {
+  font-size: 12px;
+  color: #86868b;
+  border-bottom: 1px solid #d2d2d7
+}
+
+.footer_wrapper li {
+  margin: 15px 0;
+  letter-spacing: 0.1px;
+}
+
+.footer_links {
+  display: flex;
+}
+
+.footer_links--colums {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_links--colums-title {
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 18px;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}
+
+footer a {
+  font-size: 12px;
+  color: #515154;
+  margin-bottom: 12px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .footer_group {
+  display: flex;
+  flex-direction: column;
+}
